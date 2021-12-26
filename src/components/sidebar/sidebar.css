@@ -1,0 +1,27 @@
+.sidebar {
+    background-color: antiquewhite;
+    flex-basis: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    /* padding-top: 100px; */
+    /* position: fixed;
+    top: 0;
+    left: 100px; */
+}
+
+.sidebar__btn {
+    outline: none;
+    border: none;
+    background-color: rgb(178, 178, 252);
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow:2px 2px 2px 1px;
+
+}
+
+.sidebar__btn:active {
+    box-shadow:inset 2px 2px 2px 1px;
+}
